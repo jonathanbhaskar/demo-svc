@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
+	console.log("Hi")
 	console.log("\nWeb service args:", process.argv)
 	console.log("\nWeb service env:", process.env.ENV)
 	console.log("\nWeb service DB host:", process.env.DB_HOST)
